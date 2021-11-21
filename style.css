@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  margin-right: 60px;
+}
+
+.container {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+body {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0 auto;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.flex {
+  margin-top: 20px;
+  display: flex;
+}
+
+form {
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+#steuer {
+  margin: 0px;
+}
+label {
+  width: 150px;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: auto;
+  padding: 0.3rem 1.5rem;
+  background-color: white;
+  border-color: #444;
+  color: #444;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(255, 71, 71, 1);
+  color: white;
+}

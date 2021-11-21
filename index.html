@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div>
+          <div>
+            <label for="year">Choose Year:</label>
+            <select name="year" id="year">
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+            </select>
+          </div>
+          <div>
+            <label for="income">Einkommen</label>
+            <input type="number" id="income" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="eins">Einzelveranlagung</label>
+            <input type="radio" id="eins" name="people" checked />
+          </div>
+          <div>
+            <label for="zwei">Zusammenveranlagung</label>
+            <input type="radio" id="zwei" name="people" />
+          </div>
+        </div>
+        <input type="submit" />
+      </form>
+      <div class="flex">
+        <p>Einkommensteuer:</p>
+        <div id="steuer"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
